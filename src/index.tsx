@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import WebFont from "webfontloader";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,12 @@ ReactDOM.render(
 );
 
 function CreateRouting() {
+  WebFont.load({
+    google: {
+      families: ["Quicksand", "sans-serif"],
+    },
+  });
+
   return (
     <Router>
       <Route exact path="/">
