@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shelbyhuffy.com/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/shelbyhuffy.com/static/js/main.ac9465dc.chunk.js",
+    "main.js.map": "/shelbyhuffy.com/static/js/main.ac9465dc.chunk.js.map",
+    "runtime-main.js": "/shelbyhuffy.com/static/js/runtime-main.494f7678.js",
+    "runtime-main.js.map": "/shelbyhuffy.com/static/js/runtime-main.494f7678.js.map",
+    "static/js/2.e071bb75.chunk.js": "/shelbyhuffy.com/static/js/2.e071bb75.chunk.js",
+    "static/js/2.e071bb75.chunk.js.map": "/shelbyhuffy.com/static/js/2.e071bb75.chunk.js.map",
+    "static/js/3.e511dfbf.chunk.js": "/shelbyhuffy.com/static/js/3.e511dfbf.chunk.js",
+    "static/js/3.e511dfbf.chunk.js.map": "/shelbyhuffy.com/static/js/3.e511dfbf.chunk.js.map",
+    "index.html": "/shelbyhuffy.com/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/shelbyhuffy.com/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.e071bb75.chunk.js.LICENSE.txt": "/shelbyhuffy.com/static/js/2.e071bb75.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/shelbyhuffy.com/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.494f7678.js",
+    "static/js/2.e071bb75.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.ac9465dc.chunk.js"
+  ]
+}
