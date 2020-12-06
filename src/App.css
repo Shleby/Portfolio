@@ -38,6 +38,7 @@
   background: transparent;
   padding: 0;
   color: white;
+  z-index: 100;
 }
 
 .App-button:active {
