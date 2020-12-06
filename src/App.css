@@ -10,27 +10,42 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
+.App-nav {
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   margin-bottom: 10px;
+  z-index: 1000;
 }
-.App-sun {
-  height: 80vmin;
-  pointer-events: none;
-  animation: spin infinite 20s linear;
+
+.App-button p {
+  font-weight: lighter;
+  color: inherit;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
 }
-@keyframes spin {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-    transform: rotate(0deg);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-    transform: rotate(360deg);
-  }
+
+.App-button {
+  font: inherit;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  color: white;
+}
+
+.App-button:active {
+}
+
+.App-button:hover {
+  transform: scale(1.1);
+  font-size: larger;
 }
 
 @keyframes enter {
@@ -44,16 +59,9 @@
   }
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 .App-header {
-  /* background-color: #262736; */
   width: inherit;
   background-color: rgba(0, 0, 0, 0.3);
-  /* background-color: white; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -64,6 +72,130 @@
   animation: enter ease-in-out 2s forwards;
 }
 
-.App-link {
-  color: #c4c25f;
+.comets i {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  border-radius: 5% 40% 70%;
+  box-shadow: inset 0px 0px 1px #294b67;
+  border: 1px solid #333;
+  background-color: #fff;
+  opacity: 0.7;
+  animation: falling 10s 0s ease-in infinite;
+}
+
+.comets i:nth-child(1) {
+  left: 50vw;
+  height: 73px;
+  width: 3px;
+  opacity: 0;
+  background-color: #fff;
+}
+.comets i:nth-child(3) {
+  height: 11px;
+  width: 3px;
+  animation: falling3 8s 3s infinite;
+  left: 10vw;
+  opacity: 0;
+  background-color: #fff;
+}
+.comets i:nth-child(2) {
+  animation: falling2 6s 1s infinite;
+  left: 30vw;
+  height: 70px;
+  opacity: 0;
+  width: 4px;
+  background-color: #fff;
+}
+
+@keyframes falling {
+  0% {
+    transform: translate3d(100px, 0px, 0px) rotate(160deg);
+    opacity: 1;
+  }
+
+  3% {
+    transform: translate3d(450px, 900px, 0) rotate(160deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(450px, 900px, 0) rotate(160deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling3 {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(150deg);
+    opacity: 1;
+  }
+
+  10% {
+    transform: translate3d(430px, 640px, 0) rotate(150deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(430px, 640px, 0) rotate(150deg);
+    opacity: 0;
+  }
+}
+
+@keyframes falling2 {
+  0% {
+    transform: translate3d(100px, 0, 0) rotate(130deg);
+    opacity: 1;
+  }
+
+  15% {
+    transform: translate3d(800px, 580px, 0) rotate(130deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(800px, 680px, 0) rotate(180deg);
+    opacity: 0;
+  }
+}
+/* rain drop styles */
+
+.drop {
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(rgba(255, 255, 255, 0)),
+    to(rgba(255, 255, 255, 0.5))
+  );
+  background: -moz-linear-gradient(
+    top,
+    rgba(13, 52, 58, 1) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  width: 1px;
+  height: 89px;
+  position: absolute;
+  bottom: 200px;
+  animation: fall 0.63s linear infinite;
+  -webkit-animation: fall 0.63s linear infinite;
+  -moz-animation: fall 0.63s linear infinite;
+}
+
+/* drop animation styles */
+@-webkit-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}
+@-moz-keyframes fall {
+  to {
+    margin-top: 900px;
+  }
+}
+
+@keyframes fall {
+  to {
+    margin-top: 900px;
+  }
 }
