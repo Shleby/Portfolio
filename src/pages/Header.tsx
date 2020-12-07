@@ -1,6 +1,6 @@
-import React from "react";
-import logo from "../beardSkull.svg";
+import logo from "../assets/beardSkull.svg";
 import Particles from "react-tsparticles";
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
   return (
@@ -85,22 +85,29 @@ export default function Header() {
       <div className="App-nav">
         <button className="App-button">
           <p>
-            Watch Cavaliers
+            Watch my Cavaliers
             <br />
             Performance
           </p>
         </button>
+
         <button className="App-button even">
-          <p>
-            <text>Explore my work </text>
-            <br />
-          </p>
-          <p style={{ margin: -5 }}>
-            <text style={{ fontSize: "larger" }}>﹀</text>
-          </p>
+          <HashLink to="/#navbar" smooth>
+            <p>
+              <text>Explore my work </text>
+              <br />
+            </p>
+            <p style={{ margin: -5 }}>
+              <text style={{ fontSize: "larger" }}>﹀</text>
+            </p>
+          </HashLink>
         </button>
         <button className="App-button">
-          <p>Schedule Lessons</p>
+          <p>
+            Schedule Lessons
+            <br />
+            Music <text style={{ fontSize: "larger" }}>•</text> Code
+          </p>
         </button>
       </div>
     </div>

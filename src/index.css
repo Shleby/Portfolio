@@ -3,7 +3,9 @@ body {
   font-family: Montserrat, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+}
+html {
+  scroll-behavior: smooth;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 

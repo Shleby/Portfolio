@@ -1,8 +1,29 @@
+.portfolio-container {
+  width: 100%;
+  /* background-color: rgb(145, 141, 140); */
+  background-color: rgb(44, 43, 39);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
-  background-image: url("./wood.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   width: 100%;
   overflow-y: scroll;
@@ -12,7 +33,7 @@
 
 .App-nav {
   display: flex;
-  width: inherit;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -39,9 +60,8 @@
   padding: 0;
   color: white;
   z-index: 100;
-}
-
-.App-button:active {
+  border: 2.5px;
+  border-style: solid;
 }
 
 .App-button:hover {
@@ -59,10 +79,16 @@
     transform: scale(1);
   }
 }
+.App-background {
+  background-image: url("./assets/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .App-header {
   width: inherit;
   background-color: rgba(0, 0, 0, 0.3);
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -110,6 +136,10 @@
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @keyframes falling {
   0% {
     transform: translate3d(100px, 0px, 0px) rotate(160deg);
