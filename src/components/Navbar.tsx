@@ -1,7 +1,6 @@
 import { Paper, makeStyles, Tab, Tabs } from "@material-ui/core";
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import logo from "../assets/beardSkull.svg";
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
@@ -10,6 +9,7 @@ const useStyles = makeStyles({
     justifyContent: "space-around",
     position: "sticky",
     top: 0,
+    zIndex: 100000,
   },
   paper: {
     width: "100%",
@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     justifyContent: "space-around",
     color: "black",
     fontSize: "larger",
-    backgroundColor: "rgb(145, 141, 140)",
+    backgroundColor: "rgb(44, 43, 39)",
   },
   tabs: {
     color: "white",
