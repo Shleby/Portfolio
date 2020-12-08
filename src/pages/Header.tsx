@@ -85,7 +85,9 @@ export default function Header() {
       <div className="App-nav">
         <button className="App-button">
           <p>
-            Watch my Cavaliers
+            <a href="https://www.youtube.com/watch?v=NF4rcoQ1sbk" >
+              Watch my Cavaliers
+            </a>
             <br />
             Performance
           </p>
