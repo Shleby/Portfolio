@@ -1,4 +1,4 @@
-import { Grid, Paper } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core";
 import React from "react";
 import drawCouple from "../assets/drawCouple.png";
 import cavs from "../assets/cavs.svg";
@@ -6,7 +6,9 @@ import thxCouple from "../assets/thxCouple.png";
 import hacklahoma from "../assets/hacklahoma.svg";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
-import ColorLensIcon from "@material-ui/icons/ColorLens";
+import FlightIcon from "@material-ui/icons/Flight";
+import MusicNoteIcon from "@material-ui/icons/MusicNote";
+import BusinessIcon from "@material-ui/icons/Business";
 import Cavaliers from "../assets/cavaliers.svg";
 import Crossmen from "../assets/crossmen.png";
 import Mandarins from "../assets/mandarins.svg";
@@ -15,6 +17,11 @@ import couple from "../assets/couple.png";
 import dciCouple from "../assets/dciCouple.png";
 import beanie from "../assets/beanie.png";
 import xmas from "../assets/xmasCouple.jpg";
+import InvertColorsIcon from "@material-ui/icons/InvertColors";
+import PowerIcon from "@material-ui/icons/Power";
+import LaptopMacIcon from "@material-ui/icons/LaptopMac";
+import CloudIcon from "@material-ui/icons/CloudDownload";
+import TelegramIcon from "@material-ui/icons/Telegram";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 import {
@@ -44,7 +51,7 @@ export default function About() {
             marginBottom: "10vh",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div className="row">
             <Paper
               elevation={24}
               style={{ width: "40%", backgroundColor: "rgb(44, 43, 39)" }}
@@ -57,49 +64,178 @@ export default function About() {
               />
             </Paper>
             <Paper
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column",
-                width: "60%",
-                marginLeft: 20,
-                backgroundColor: "rgb(44, 43, 39)",
-              }}
+              className="about-paper"
+              style={{ backgroundColor: "rgb(44,43,39)" }}
               elevation={24}
             >
-              <WorkIcon fontSize="large" style={{ color: "white" }} />
-              <h1 style={{ color: "white" }}>
-                <strong style={{ marginLeft: 10 }}>
-                  Software Engineer at Boeing
-                </strong>
-              </h1>
-
-              <h1 style={{ color: "white" }}>
-                <SchoolIcon fontSize="large" style={{ color: "white" }} />
-                <div>
-                  <strong style={{ color: "#FDF9D8" }}>
+              <Grid container>
+                <Grid item xs={6} className="about-grid">
+                  <Typography
+                    variant="h4"
+                    component="h6"
+                    className="about-type"
+                  >
+                    <SchoolIcon style={{ marginRight: 10 }} />
+                    Education
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="subtitle1" className="about-type-phone">
+                    Education
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography
+                    variant="h6"
+                    component="h6"
+                    className="color-yellow"
+                  >
                     The University of Oklahoma
-                  </strong>
-                  <br />
-                  Bachelors in Mathematics
-                  <br />
-                  Bachelors in Computer Science
-                  <br />
-                </div>
-              </h1>
+                  </Typography>
+                  <Typography variant="body1" className="color-yellow-phone">
+                    The University of Oklahoma
+                  </Typography>
+                  <Typography variant="subtitle1" className="cs-type">
+                    Bachelors of Science in Computer Science
+                  </Typography>
+                  <Typography variant="body2" className="cs-type-phone">
+                    Computer Science
+                  </Typography>
+                  <Typography variant="subtitle1" className="math-type">
+                    Bachelors of Arts in Mathematics
+                  </Typography>
+                  <Typography variant="body2" className="math-type-phone">
+                    Mathematics
+                  </Typography>
+                  <Typography
+                    variant="h4"
+                    component="h6"
+                    className="about-type"
+                  >
+                    <BusinessIcon style={{ marginRight: 10 }} />
+                    Ogranizations
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="subtitle1" className="about-type-phone">
+                    Ogranizations
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="h6" component="h6" className="cs-type">
+                    <TelegramIcon style={{ marginRight: 10 }} />
+                    Executive Director for{" "}
+                    <text className="color-yellow">Hacklahoma</text>
+                  </Typography>
+                  <Typography variant="body2" className="cs-type-phone">
+                    <TelegramIcon
+                      style={{ paddingLeft: 10, paddingRight: 10 }}
+                    />
 
-              <ColorLensIcon fontSize="large" style={{ color: "white" }} />
-              <div className="about-set about-margin">
-                <h1 style={{ color: "white" }}>
-                  My hobbies include teaching music,
-                  <br />
-                  competing in hackathons,
-                  <br />
-                  and drinking coffee all day.
-                  <br />
-                </h1>
-              </div>
+                    <text className="color-yellow-phone">Hacklahoma</text>
+                  </Typography>
+                  <Typography variant="h6" className="cs-type">
+                    <CloudIcon style={{ marginRight: 10 }} />
+                    Web master for <text className="color-yellow">SACM</text>
+                  </Typography>
+                  <Typography variant="body2" className="cs-type-phone">
+                    <CloudIcon style={{ paddingLeft: 10, paddingRight: 10 }} />
+
+                    <text className="color-yellow-phone">SACM</text>
+                  </Typography>
+                </Grid>
+                <Grid
+                  item
+                  xs={6}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    padding: 10,
+                  }}
+                >
+                  <Typography
+                    variant="h4"
+                    component="h6"
+                    className="about-type"
+                  >
+                    <WorkIcon style={{ marginRight: 10 }} />
+                    Employement
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="subtitle1" className="about-type-phone">
+                    Employement
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="h6" component="h6" className="cs-type">
+                    <FlightIcon style={{ marginRight: 10 }} />
+                    Software Engineer at{" "}
+                    <text className="color-yellow">Boeing</text>
+                  </Typography>
+                  <Typography variant="body2" className="boeing-type-phone">
+                    <FlightIcon style={{ marginRight: 10 }} />
+                    <text className="color-yellow-phone">Boeing</text>
+                  </Typography>
+                  <Typography variant="h6" component="h6" className="math-type">
+                    <LaptopMacIcon style={{ marginRight: 10 }} />
+                    Freelance{" "}
+                    <text className="color-yellow">Web Developer</text>
+                  </Typography>
+
+                  <Typography
+                    variant="h4"
+                    component="h6"
+                    className="about-type"
+                  >
+                    <WorkIcon style={{ marginRight: 10 }} />
+                    Past Positions
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <Typography variant="subtitle1" className="about-type-phone">
+                    Past Positions
+                    <hr style={{ width: "60%" }} />
+                  </Typography>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "center",
+                      alignContent: "center",
+                    }}
+                  >
+                    <Typography variant="h6" component="h6" className="cs-type">
+                      <PowerIcon style={{ marginRight: 10 }} />
+                      Software Development Intern at{" "}
+                      <text className="color-yellow">Power Costs, Inc</text>
+                    </Typography>
+                    <Typography variant="body2" className="cs-type-phone">
+                      <PowerIcon style={{ marginRight: 10 }} />
+
+                      <text className="color-yellow-phone">
+                        Power Costs, Inc
+                      </text>
+                    </Typography>
+                    <Typography variant="h6" component="h6" className="cs-type">
+                      <InvertColorsIcon style={{ marginRight: 10 }} />
+                      Software Engineering Intern at{" "}
+                      <text className="color-yellow">Oseberg</text>
+                    </Typography>{" "}
+                    <Typography variant="body2" className="cs-type-phone">
+                      <InvertColorsIcon style={{ marginRight: 10 }} />
+
+                      <text className="color-yellow-phone">Oseberg</text>
+                    </Typography>
+                    <Typography variant="h6" component="h6" className="cs-type">
+                      <MusicNoteIcon style={{ marginRight: 10 }} />
+                      Percussion Instructor at{" "}
+                      <text className="color-yellow">
+                        Southmoore High School
+                      </text>
+                    </Typography>
+                    <Typography variant="body2" className="cs-type-phone">
+                      <MusicNoteIcon style={{ marginRight: 10 }} />
+                      <text className="color-yellow-phone">
+                        Southmoore High School
+                      </text>
+                    </Typography>
+                  </div>
+                </Grid>
+              </Grid>
             </Paper>
           </div>
         </Paper>
@@ -243,109 +379,8 @@ export default function About() {
           </CarouselProvider>
           <div style={{ backgroundColor: "rgb(44, 43, 39)", padding: 5 }}>
             <h1 style={{ color: "white" }}>
-              I am very happily married to my wife Haruka.
+              I am happily married to my wife Haruka.
             </h1>
-          </div>
-        </Paper>
-        <Paper
-          elevation={11}
-          style={{
-            backgroundColor: "rgb(44, 43, 39)",
-            width: "70%",
-            padding: 20,
-            marginBottom: "10vh",
-          }}
-        >
-          <div className="about-set">
-            <img
-              src={hacklahoma}
-              style={{ width: "20%", margin: 20 }}
-              alt="Drawing of me and Haruka"
-            />
-            <div className="about" style={{ color: "white" }}>
-              <h1>Organizations I'm involved with: </h1>
-              <Paper
-                elevation={24}
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "100%",
-                  height: "70%",
-                  backgroundColor: "rgb(44, 43, 39)",
-                  marginRight: 40,
-                  marginLeft: 40,
-                }}
-                className="about-paper-2"
-              >
-                <h2 style={{ color: "white" }}>
-                  <h3>I am an Executive Director at Hacklahoma.</h3>
-
-                  <h3 style={{ color: "white" }}>
-                    I am the Web Master for the Student Association of Computing
-                    Machinery
-                  </h3>
-                </h2>
-              </Paper>
-            </div>
-          </div>
-        </Paper>
-        <Paper
-          elevation={11}
-          style={{
-            backgroundColor: "rgb(44, 43, 39)",
-            width: "70%",
-            padding: 20,
-          }}
-        >
-          <div className="about-set">
-            <img
-              src={cavs}
-              style={{ width: "20%", margin: 20 }}
-              alt="Thanksgiving 2020 W/ Haruka"
-            />
-            <Paper
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                width: "60%",
-                height: "70%",
-                backgroundColor: "rgb(44, 43, 39)",
-                marginRight: 40,
-                marginLeft: 40,
-              }}
-              elevation={24}
-            >
-              <h2 style={{ color: "white" }} className="about-paper-2">
-                <h3>Quick Drum Corps Resume :</h3>
-                <div className="about-set about-margin">
-                  <img src={Cavaliers} alt="cavs" style={{ width: "10%" }} />
-                  <h3 style={{ color: "white" }}>
-                    The Cavaliers Drum and Bugle Corps
-                    <br /> of Chicago, Illinois
-                  </h3>
-                </div>
-                <div className="about-set about-margin">
-                  <img src={Crossmen} alt="crossmen" style={{ width: "10%" }} />
-                  <h3 style={{ color: "white" }}>
-                    The Crossmen Drum and Bugle Corps
-                    <br /> of San Antonio, Texas
-                  </h3>
-                </div>
-                <div className="about-set about-margin">
-                  <img
-                    src={Mandarins}
-                    alt="Mandarins"
-                    style={{ width: "10%" }}
-                  />
-                  <h3 style={{ color: "white" }}>
-                    The Mandarins Drum and Bugle Corps
-                    <br /> of Sacramento, California
-                  </h3>
-                </div>
-              </h2>
-            </Paper>
           </div>
         </Paper>
       </div>

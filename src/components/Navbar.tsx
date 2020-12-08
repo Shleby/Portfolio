@@ -3,13 +3,10 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 const useStyles = makeStyles({
   root: {
-    flexGrow: 1,
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-around",
     position: "sticky",
     top: 0,
     zIndex: 100000,
+    width: "100%",
   },
   paper: {
     width: "100%",
@@ -26,6 +23,12 @@ const useStyles = makeStyles({
   indicator: {
     backgroundColor: "white",
   },
+  nav: {
+    width: "50%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-around",
+  },
 });
 
 export default function Navbar() {
@@ -38,43 +41,21 @@ export default function Navbar() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper} id="navbar">
-        <Tabs
-          value={value}
-          className={classes.tabs}
-          classes={{ indicator: classes.indicator }}
-          onChange={handleChange}
-        >
-          <Tab
-            label={
-              <HashLink to="/#about" smooth>
-                About
-              </HashLink>
-            }
-          />
-
-          <Tab
-            label={
-              <HashLink to="/#projects" smooth>
-                Projects
-              </HashLink>
-            }
-          />
-          <Tab
-            label={
-              <HashLink to="/#skills" smooth>
-                Skills
-              </HashLink>
-            }
-          />
-          <Tab
-            label={
-              <HashLink to="/#contact" smooth>
-                Contact
-              </HashLink>
-            }
-          />
-        </Tabs>
+      <Paper className={classes.paper} elevation={11}>
+        <nav className={classes.nav} id="navbar">
+          <HashLink to="/#about" smooth className="hash-link">
+            <h3>About</h3>
+          </HashLink>
+          <HashLink to="/#projects" smooth className="hash-link">
+            <h3>Projects</h3>
+          </HashLink>
+          <HashLink to="/#skills" smooth className="hash-link">
+            <h3>Skills</h3>
+          </HashLink>
+          <HashLink to="/#contact" smooth className="hash-link">
+            <h3>Contact</h3>
+          </HashLink>
+        </nav>
       </Paper>
     </div>
   );

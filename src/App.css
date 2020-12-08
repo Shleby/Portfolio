@@ -3,6 +3,26 @@
   /* background-color: rgb(145, 141, 140); */
   background-color: rgb(44, 43, 39);
 }
+.hash-link {
+  color: rgb(255, 255, 255);
+}
+.hash-link:hover {
+  color: #c4c25f;
+}
+.hash-link:active {
+  color: #c4c25f;
+}
+
+nav #marker {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: #000;
+  bottom: -8px;
+  transition: 0.5s;
+  border-radius: 4ps;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -231,82 +251,6 @@ a {
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  /* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-  /* Styles */
-}
-
-/* iPhone X ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-  .about-set {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-  .about-set {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .about-h3 {
-    font-size: large;
-  }
-  .about-margin {
-    margin: 0;
-  }
-  .about-paper-2 {
-    margin-right: 0;
-    margin-left: 0;
-    width: 100%;
-  }
-  .about-img-2 {
-    width: 100%;
-  }
-  .about-paper-2 {
-    width: 100%;
-  }
-}
-
-/* iPhone XS Max, XR ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-  /* Styles */
-}
-
 .percent-hw {
   width: 100%;
   height: 100%;
@@ -350,4 +294,252 @@ a {
 }
 .about-margin {
   margin: 20;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.about-paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 20;
+}
+
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 10;
+  border-right: 6px solid white;
+  height: 100%;
+  left: 50%;
+}
+
+.about-type {
+  color: white;
+  text-align: center;
+}
+.about-type-phone {
+  display: none;
+  color: white;
+  text-align: center;
+}
+.color-yellow {
+  color: #c4c25f;
+}
+.color-yellow-phone {
+  display: none;
+}
+.cs-type {
+  color: white;
+}
+.cs-type-phone {
+  display: none;
+}
+.math-type {
+  color: white;
+  padding-bottom: 60px;
+}
+.math-type-phone {
+  display: none;
+}
+.web-type-phone {
+  display: none;
+}
+.boeing-type-phone {
+  display: none;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .web-type-phone {
+    display: flex;
+    flex-direction: row;
+  }
+  .math-type-phone {
+    color: white;
+    padding-bottom: 16px;
+    display: block;
+  }
+  .math-type {
+    display: none;
+  }
+  .cs-type {
+    display: none;
+  }
+  .cs-type-phone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+  }
+  .boeing-type-phone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-bottom: 80px;
+  }
+  .about-type {
+    display: none;
+  }
+  .about-type-phone {
+    display: block;
+  }
+  .color-yellow {
+    display: none;
+  }
+  .color-yellow-phone {
+    display: block;
+    color: #c4c25f;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-right: 0px solid white;
+    height: 100%;
+  }
+  .about-paper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .web-type-phone {
+    display: flex;
+    flex-direction: row;
+  }
+  .boeing-type-phone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-bottom: 80px;
+  }
+  .math-type-phone {
+    color: white;
+    padding-bottom: 60px;
+    display: block;
+  }
+  .math-type {
+    display: none;
+  }
+  .cs-type {
+    display: none;
+  }
+  .cs-type-phone {
+    display: block;
+    color: white;
+  }
+  .about-type {
+    display: none;
+  }
+  .about-type-phone {
+    display: block;
+  }
+  .color-yellow {
+    display: none;
+  }
+  .color-yellow-phone {
+    display: block;
+    color: #c4c25f;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-right: 0px solid white;
+    height: 100%;
+  }
+  .about-paper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .web-type-phone {
+    display: flex;
+    flex-direction: row;
+  }
+  .boeing-type-phone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-bottom: 80px;
+  }
+  .math-type-phone {
+    color: white;
+    padding-bottom: 60px;
+    display: block;
+  }
+  .math-type {
+    display: none;
+  }
+  .cs-type {
+    display: none;
+  }
+  .cs-type-phone {
+    display: block;
+    color: white;
+  }
+  .about-type {
+    display: none;
+  }
+  .about-type-phone {
+    display: block;
+  }
+  .color-yellow {
+    display: none;
+  }
+  .color-yellow-phone {
+    display: block;
+    color: #c4c25f;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-right: 0px solid white;
+    height: 100%;
+  }
+  .about-paper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
