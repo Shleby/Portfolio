@@ -1,23 +1,19 @@
 import { Grid, Paper, Typography } from "@material-ui/core";
 import React from "react";
 import drawCouple from "../assets/drawCouple.png";
-import cavs from "../assets/cavs.svg";
 import thxCouple from "../assets/thxCouple.png";
-import hacklahoma from "../assets/hacklahoma.svg";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import FlightIcon from "@material-ui/icons/Flight";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import BusinessIcon from "@material-ui/icons/Business";
-import Cavaliers from "../assets/cavaliers.svg";
-import Crossmen from "../assets/crossmen.png";
-import Mandarins from "../assets/mandarins.svg";
 import Profile from "../assets/profile.png";
 import couple from "../assets/couple.png";
 import dciCouple from "../assets/dciCouple.png";
 import beanie from "../assets/beanie.png";
 import xmas from "../assets/xmasCouple.jpg";
 import InvertColorsIcon from "@material-ui/icons/InvertColors";
+import StoreMallDirectoryIcon from "@material-ui/icons/StoreMallDirectory";
 import PowerIcon from "@material-ui/icons/Power";
 import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import CloudIcon from "@material-ui/icons/CloudDownload";
@@ -171,6 +167,17 @@ export default function About() {
                     <FlightIcon style={{ marginRight: 10 }} />
                     <text className="color-yellow-phone">Boeing</text>
                   </Typography>
+                  <Typography variant="h6" component="h6" className="cs-type">
+                    <MusicNoteIcon style={{ marginRight: 10 }} />
+                    Percussion Instructor at{" "}
+                    <text className="color-yellow">Southmoore High School</text>
+                  </Typography>
+                  <Typography variant="body2" className="cs-type-phone">
+                    <MusicNoteIcon style={{ marginRight: 10 }} />
+                    <text className="color-yellow-phone">
+                      Southmoore High School
+                    </text>
+                  </Typography>
                   <Typography variant="h6" component="h6" className="math-type">
                     <LaptopMacIcon style={{ marginRight: 10 }} />
                     Freelance{" "}
@@ -221,17 +228,13 @@ export default function About() {
                       <text className="color-yellow-phone">Oseberg</text>
                     </Typography>
                     <Typography variant="h6" component="h6" className="cs-type">
-                      <MusicNoteIcon style={{ marginRight: 10 }} />
-                      Percussion Instructor at{" "}
-                      <text className="color-yellow">
-                        Southmoore High School
-                      </text>
-                    </Typography>
+                      <StoreMallDirectoryIcon style={{ marginRight: 10 }} />
+                      Sales Associate for{" "}
+                      <text className="color-yellow">The Home Depot</text>
+                    </Typography>{" "}
                     <Typography variant="body2" className="cs-type-phone">
-                      <MusicNoteIcon style={{ marginRight: 10 }} />
-                      <text className="color-yellow-phone">
-                        Southmoore High School
-                      </text>
+                      <StoreMallDirectoryIcon style={{ marginRight: 10 }} />
+                      <text className="color-yellow-phone">The Home Depot</text>
                     </Typography>
                   </div>
                 </Grid>

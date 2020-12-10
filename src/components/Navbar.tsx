@@ -1,4 +1,4 @@
-import { Paper, makeStyles, Tab, Tabs } from "@material-ui/core";
+import { Paper, makeStyles } from "@material-ui/core";
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 const useStyles = makeStyles({
@@ -33,11 +33,6 @@ const useStyles = makeStyles({
 
 export default function Navbar() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
-  };
 
   return (
     <div className={classes.root}>
