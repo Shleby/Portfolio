@@ -85,11 +85,10 @@ export default function Contact() {
             console.log(error.text);
           }
         );
+      resetForm();
     } else {
       alert("Please check the Recaptcha before sending your message");
     }
-
-    resetForm();
   }
   function resetForm() {
     setName("");
@@ -98,11 +97,10 @@ export default function Contact() {
   }
   return (
     <div>
-      <div style={{ backgroundColor: "#d6d6d6" }}>
+      <div style={{ backgroundColor: "#d6d6d6", height: "auto" }}>
         <img src={wave} alt="" />
       </div>
       <div
-        id="contact"
         style={{
           backgroundColor: "#2c2b27",
           height: "auto",
@@ -110,6 +108,18 @@ export default function Contact() {
           marginBottom: "-2vh",
         }}
       >
+        <p
+          id="contact"
+          style={{ backgroundColor: "transparent", color: "transparent" }}
+        >
+          .
+        </p>
+        <p style={{ backgroundColor: "transparent", color: "transparent" }}>
+          .
+        </p>
+        <p style={{ backgroundColor: "transparent", color: "transparent" }}>
+          .
+        </p>
         <h1 style={{ color: "white" }}>Contact Me</h1>
         <hr style={{ width: "5%", color: "white" }} />
         <div>

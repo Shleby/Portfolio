@@ -85,7 +85,7 @@ export default function Header() {
       <div className="App-nav">
         <button className="App-button">
           <p>
-            <a href="https://www.youtube.com/watch?v=NF4rcoQ1sbk" >
+            <a href="https://www.youtube.com/watch?v=NF4rcoQ1sbk">
               Watch my Cavaliers
             </a>
             <br />
@@ -105,11 +105,13 @@ export default function Header() {
           </HashLink>
         </button>
         <button className="App-button">
-          <p>
-            Schedule Lessons
-            <br />
-            Music <text style={{ fontSize: "larger" }}>•</text> Code
-          </p>
+          <HashLink to="/#contact" smooth>
+            <p>
+              Schedule Lessons
+              <br />
+              Music <text style={{ fontSize: "larger" }}>•</text> Code
+            </p>
+          </HashLink>
         </button>
       </div>
     </div>
