@@ -3,19 +3,18 @@
     "name": "Shelby Huffman",
     "titles": [
       "Aerospace Software Engineer",
-      "Front-end Developer",
       "Music Teacher and Composer",
       "Chess Enthusiast"
     ],
     "social": [
       {
         "name": "github",
-        "url": "https://github.com",
+        "url": "https://github.com/Shleby",
         "class": "fab fa-github"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com",
+        "url": "https://www.instagram.com/mr._.huffy/",
         "class": "fab fa-instagram"
       }
     ],
