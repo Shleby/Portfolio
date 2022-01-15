@@ -37,7 +37,6 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -50,6 +49,12 @@ class Experience extends Component {
             >
               {work.title}
             </h3>
+            <h5
+              className="vertical-timeline-element-title"
+              style={{ textAlign: "left", fontStyle: "italic" }}
+            >
+              {work.specialization}
+            </h5>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}

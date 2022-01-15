@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "A short introduction...",
-    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Master's in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. Shelby had the privilege of beginning his musical journey with Resistance for three years from '14-'16. He played tenors at Choctaw high school and played snare for the University of Oklahoma Drumline. Shelby began his world-class front ensemble journey with Gateway Indoor in '17 and then Monarch Independent in '19. During his summers, Shelby marched Mandarins in '16, Crossmen from '17-'18, and aged out at The Cavaliers in '19. Shelby is still an active marimba player as a duo partner with Tim Bartee II.",
+    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Master's in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. Shelby had the privilege of beginning his musical journey with Resistance for three years from '14-'16. He played tenors at Choctaw high school and played snare for the University of Oklahoma Drumline. Shelby began his world-class front ensemble journey with Gateway Indoor in '17 and then Monarch Independent in '19. During his summers, Shelby marched Mandarins in '16, Crossmen from '17-'18, and aged out at The Cavaliers in '19.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -81,28 +81,112 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Southmoore High School",
+      "title": "Front Ensemble Coordinator",
+      "years": "08.2016 - present",
+      "mainTech": ["Current Job", "Percussion", "Freelance"],
+      "technologies": [""]
+    },
+    {
+      "company": "Oseberg",
+      "title": "Software Engineering Intern",
+      "years": "08.2019 - 11.2019",
+      "mainTech": ["React", "TypeScript"],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "MacOS",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "AWS",
+        "JWT"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Power Costs Inc",
+      "title": "Software Development Intern",
+      "years": "01.2020 - 05.2020",
+      "mainTech": ["Java", "React", "TypeScript"],
+      "technologies": [
+        "Java",
+        "XML",
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "Eclipse",
+        "Windows 10",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "Adobe XD",
+        "Figma"
+      ]
+    },
+    {
+      "company": "Boeing",
+      "title": "Software Engineer",
+      "years": "06.2020 - present",
+      "mainTech": ["Current Job"],
+      "technologies": [
+        "Java",
+        "C++",
+        "C",
+        "ClearCase",
+        "Agile",
+        "Git",
+        "Eclipse",
+        "Linux",
+        "Windows 10",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "XML",
+        "BASH"
+      ]
+    },
+    {
+      "company": "University of Oklahoma",
+      "title": "Bachelor of Science in Computer Science",
+      "years": "2021",
+      "mainTech": ["Graduated"],
+      "technologies": [""]
+    },
+    {
+      "company": "University of Oklahoma",
+      "title": "Bachelor of Arts in Mathematics",
+      "years": "2021",
+      "mainTech": ["Graduated"],
+      "technologies": [""]
+    },
+    {
+      "company": "Georgia Institute of Technology",
+      "title": "Master of Science in Computer Science",
+      "specialization": "Computational Perception and Robotics",
+      "years": "2021 - 2024 (in progress)",
+      "mainTech": ["In-Progress"],
+      "technologies": [""]
+    },
+    {
+      "company": "Huffy Music Company",
+      "title": "Founder / Percussion Instructor",
+      "years": "2021 - present",
+      "mainTech": ["Current Job", "Percussion", "Freelance"],
+      "technologies": [""]
+    },
+    {
+      "company": "Resistance Indoor Percussion",
+      "title": "Front Ensemble Tech",
+      "years": "2021 - present",
+      "mainTech": ["Current Job", "Percussion", "Open-Class WGI", "Freelance"],
+      "technologies": [""]
     }
   ]
 }
