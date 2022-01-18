@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "A short introduction...",
-    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Master's in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. Shelby had the privilege of beginning his musical journey with Resistance for three years from '14-'16. He played tenors at Choctaw high school and played snare for the University of Oklahoma Drumline. Shelby began his world-class front ensemble journey with Gateway Indoor in '17 and then Monarch Independent in '19. During his summers, Shelby marched Mandarins in '16, Crossmen from '17-'18, and aged out at The Cavaliers in '19.",
+    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Masters in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. In his downtime he enjoys playing chess (ranked 1400 rapid on chess.com), studying finance, and writing books and music.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,13 +11,57 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
+      "title": "Marriage",
       "startDate": "2020",
       "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/marriage/cartoon.png",
+        "images/portfolio/marriage/pikes-place.png",
+        "images/portfolio/marriage/crossmen.png",
+        "images/portfolio/marriage/birthday.png"
       ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Hacklahoma",
+      "startDate": "2020",
+      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "images": ["images/portfolio/hacklahoma/hack.png"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Front Ensemble Book",
+      "startDate": "2022",
+      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "images": ["images/portfolio/front-book/book-cover.png"],
       "url": "",
       "technologies": [
         {
@@ -81,11 +125,90 @@
   ],
   "experience": [
     {
+      "company": "Resistance Indoor Percussion",
+      "title": "",
+      "years": "2014 - 2016",
+      "mainTech": [""],
+      "technologies": ["Resist Pit", "Vibe/Marimba Player", "Open-Class WGI"]
+    },
+    {
+      "company": "Choctaw High School",
+      "title": "",
+      "years": "2016",
+      "mainTech": ["Graduated", "Valedictorian"],
+      "technologies": [
+        "National Honor Society",
+        "Oklahoma Honor Society",
+        "Yearbook Team"
+      ]
+    },
+    {
       "company": "Southmoore High School",
       "title": "Front Ensemble Coordinator",
       "years": "08.2016 - present",
       "mainTech": ["Current Job", "Percussion", "Freelance"],
       "technologies": [""]
+    },
+    {
+      "company": "Mandarins Drum & Bugle Corps",
+      "title": "",
+      "years": "2016",
+      "mainTech": [""],
+      "technologies": [
+        "Vibraphone Player",
+        "Dragon Pit",
+        "Sacramento, CA",
+        "World-Class DCI"
+      ]
+    },
+    {
+      "company": "Gateway Percussion",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": ["Vibraphone Player", "St Louis, MO", "World-Class WGI"]
+    },
+    {
+      "company": "University of Oklahoma Drumline",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": ["Snare Drummer"]
+    },
+    {
+      "company": "Crossmen Drum & Bugle Corps",
+      "title": "",
+      "years": "2017 - 2018",
+      "mainTech": [""],
+      "technologies": [
+        "Marimba Player",
+        "Bones Pit",
+        "San Antonio, TX",
+        "World-Class DCI"
+      ]
+    },
+    {
+      "company": "Monarch Independent",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Split-Center Marimba Player",
+        "Houston, TX",
+        "World-Class WGI"
+      ]
+    },
+    {
+      "company": "The Cavaliers Drum & Bugle Corps",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Xylophone Player",
+        "Cavs Pit",
+        "Rosemont, IL",
+        "World-Class DCI"
+      ]
     },
     {
       "company": "Oseberg",
@@ -151,6 +274,13 @@
         "XML",
         "BASH"
       ]
+    },
+    {
+      "company": "Haruka Huffman",
+      "title": "Married",
+      "years": "Anniversary: 07.19.2020",
+      "mainTech": ["Happliy"],
+      "technologies": [""]
     },
     {
       "company": "University of Oklahoma",

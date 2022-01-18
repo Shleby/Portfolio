@@ -16,12 +16,102 @@
         "name": "instagram",
         "url": "https://www.instagram.com/mr._.huffy/",
         "class": "fab fa-instagram"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/mr._.huffy/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "Shelby.jpeg"
   },
   "skills": {
     "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "C",
+        "class": "devicon-c-plain",
+        "level": "60"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cpp-plain",
+        "level": "60"
+      },
+      {
+        "name": "XML",
+        "class": "devicon-xml-plain",
+        "level": "60"
+      },
+      {
+        "name": "Bash",
+        "class": "devicon-bash-plain",
+        "level": "60"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-azure-plain",
+        "level": "60"
+      },
+      {
+        "name": "Linux",
+        "class": "devicon-linux-plain",
+        "level": "60"
+      },
+      {
+        "name": "MacOS",
+        "class": "devicon-apple-plain",
+        "level": "60"
+      },
+      {
+        "name": "Windows",
+        "class": "devicon-windows10-plain",
+        "level": "60"
+      },
+      {
+        "name": "Unity Engine",
+        "class": "devicon-unity-plain",
+        "level": "60"
+      },
+      {
+        "name": "Eclipse",
+        "class": "devicon-eclipse-plain",
+        "level": "60"
+      },
+      {
+        "name": "Visual Studio",
+        "class": "devicon-visualstudio-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      },
+      {
+        "name": "ClearCase",
+        "class": "devicon-clearcase-plain",
+        "level": "60"
+      },
+      {
+        "name": "Adobe XD",
+        "class": "devicon-adobexd-plain",
+        "level": "60"
+      },
+      {
+        "name": "R",
+        "class": "devicon-r-plain",
+        "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
       {
         "name": "HTML 5",
         "class": "devicon-html5-plain",
@@ -30,6 +120,11 @@
       {
         "name": "CSS 3",
         "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
         "level": "95"
       },
       {
