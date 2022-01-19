@@ -3,7 +3,7 @@ import { Grid, GridItem } from "@patternfly/react-core";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import styled from "styled-components";
 import { Paper, Typography } from "@material-ui/core";
-
+test
 export default function Skills() {
   return (
     <div
