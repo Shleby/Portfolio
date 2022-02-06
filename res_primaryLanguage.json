@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "A short introduction...",
-    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Masters in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. In his downtime he enjoys playing chess (ranked 1400 rapid on chess.com), studying finance, and writing books and music.",
+    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Masters in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. In his downtime he enjoys playing chess (ranked 1400 rapid on chess.com), preparing music material for his students, and consuming media with his wife (as one who has grown up in the age of media over-stimulation).",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,9 +11,64 @@
   },
   "projects": [
     {
+      "title": "southpit.club",
+      "startDate": "2016-2022",
+      "description": "I made this website for my students at southmoore. It contains all of our music, warmups, and techniques. It is also an easy place for me to archive our past performances and allow parents to easily find the percussion implements I need them to purchase.",
+      "images": [
+        "images/portfolio/southpit/cover.png",
+        "images/portfolio/southpit/archive.png",
+        "images/portfolio/southpit/gff.png",
+        "images/portfolio/southpit/info.png",
+        "images/portfolio/southpit/technique.png"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
+    },
+    {
+      "title": "Music Career",
+      "startDate": "2016-2019",
+      "description": "A collection of photos of me with students and groups I had the honor to perform with.",
+      "images": [
+        "images/portfolio/music/cavs.jpg",
+        "images/portfolio/music/art.png",
+        "images/portfolio/music/cavs2.jpg",
+        "images/portfolio/music/cross2018.jpg",
+        "images/portfolio/music/crossmen2017.jpg",
+        "images/portfolio/music/crossmen2018.jpg",
+        "images/portfolio/music/djembe.jpg",
+        "images/portfolio/music/mandarins.jpg",
+        "images/portfolio/music/monarch.jpg",
+        "images/portfolio/music/mountain.jpg",
+        "images/portfolio/music/oudl.jpg",
+        "images/portfolio/music/rip2014.jpg",
+        "images/portfolio/music/rip2015.jpg",
+        "images/portfolio/music/southpit2016.jpg",
+        "images/portfolio/music/southpit2021.jpg",
+        "images/portfolio/music/students.png",
+        "images/portfolio/music/tenors.jpg",
+        "images/portfolio/music/xmen2018.jpg"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
+    },
+    {
+      "title": "Hackathon Projects",
+      "startDate": "2017-2021",
+      "description": "A collection of all the hackathon projects I have done. I would make these seperate and give huge bio's on them except for they've never been deployed... Nonetheless I am proud of the work done and skills learned.",
+      "images": [
+        "images/portfolio/hackathons/cers.png",
+        "images/portfolio/hackathons/clevercitizen.png",
+        "images/portfolio/hackathons/hla_site.png",
+        "images/portfolio/hackathons/encryption.jpg",
+        "images/portfolio/hackathons/next-steps.png"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
       "title": "Marriage",
       "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "description": "I met my wife during my first season with the Crossmen DBC. I remember getting off the bus, and before I could even get my luggage set up somewhere I noticed her stand out amongst a group of folk unloading a box truck. She stood there tall, organizing everyone. I had happened to wear a snapback of a group I was previously in, which she recognized. She came and talked to me and from there I spent the entire summer looking for her attention. Later on, we got married during the pandemic after a very long distance relationship, and decided to always be by each others side. Thank you to my wife for everything.",
       "images": [
         "images/portfolio/marriage/cartoon.png",
         "images/portfolio/marriage/pikes-place.png",
@@ -21,106 +76,27 @@
         "images/portfolio/marriage/birthday.png"
       ],
       "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
+      "technologies": []
     },
     {
       "title": "Hacklahoma",
       "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-      "images": ["images/portfolio/hacklahoma/hack.png"],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
+      "description": "Hacklahoma was a major turning point in my programming career. I learned to go outside my degree and explore new avenues of technology that were previously unknown to me. Eventually I was given the oppurtunity to join OU's hacklahoma team and planned all of the logistics with the team for the 2020 season. In 2021, the team trusted me and my friend Bibi Dang to lead the entire group as executive directors as we headed into the uncertain age of Covid and had to reinvent everything in a virtual enviornment.",
+      "images": [
+        "images/portfolio/hacklahoma/team.jpg",
+        "images/portfolio/hacklahoma/hack.png",
+        "images/portfolio/hacklahoma/group.jpg"
+      ],
+      "url": "https://hacklahoma.org/",
+      "technologies": []
     },
     {
       "title": "Front Ensemble Book",
       "startDate": "2022",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "description": "I've never been much of an author, but I figured it was the most mid 20's/early 30's thing I could do. This book is a work in progress, and covers everything I know about front ensembles. There are many different varieties of front ensembles out there and I'd like to cover each one in depth and compile all of the progress made in this very niche field.",
       "images": ["images/portfolio/front-book/book-cover.png"],
       "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
+      "technologies": []
     }
   ],
   "experience": [
@@ -231,6 +207,13 @@
       ]
     },
     {
+      "company": "Hacklahoma",
+      "title": "Operation Officer",
+      "years": "2020",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
       "company": "Power Costs Inc",
       "title": "Software Development Intern",
       "years": "01.2020 - 05.2020",
@@ -281,6 +264,13 @@
       "years": "Anniversary: 07.19.2020",
       "mainTech": ["Happliy"],
       "technologies": [""]
+    },
+    {
+      "company": "Hacklahoma",
+      "title": "Executive Director",
+      "years": "2021",
+      "mainTech": [],
+      "technologies": []
     },
     {
       "company": "University of Oklahoma",
