@@ -28,8 +28,18 @@
   "skills": {
     "icons": [
       {
+        "name": "Music",
+        "class": "devicon-composer-line",
+        "level": "60"
+      },
+      {
         "name": "Java",
         "class": "devicon-java-plain",
+        "level": "60"
+      },
+      {
+        "name": "Kotlin",
+        "class": "devicon-kotlin-plain",
         "level": "60"
       },
       {
@@ -39,12 +49,17 @@
       },
       {
         "name": "C++",
-        "class": "devicon-cpp-plain",
+        "class": "devicon-cplusplus-plain",
+        "level": "60"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
         "level": "60"
       },
       {
         "name": "XML",
-        "class": "devicon-xml-plain",
+        "class": "devicon-devicon-plain",
         "level": "60"
       },
       {
@@ -53,13 +68,43 @@
         "level": "60"
       },
       {
+        "name": "Matlab",
+        "class": "devicon-matlab-plain",
+        "level": "60"
+      },
+      {
         "name": "Azure",
         "class": "devicon-azure-plain",
         "level": "60"
       },
       {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "NPM",
+        "class": "devicon-npm-original-wordmark",
+        "level": "60"
+      },
+      {
+        "name": "Putty",
+        "class": "devicon-putty-plain",
+        "level": "60"
+      },
+      {
         "name": "Linux",
         "class": "devicon-linux-plain",
+        "level": "60"
+      },
+      {
+        "name": "Ubuntu",
+        "class": "devicon-ubuntu-plain",
+        "level": "60"
+      },
+      {
+        "name": "Vim",
+        "class": "devicon-vim-plain",
         "level": "60"
       },
       {
@@ -69,22 +114,37 @@
       },
       {
         "name": "Windows",
-        "class": "devicon-windows10-plain",
+        "class": "devicon-windows8-plain",
         "level": "60"
       },
       {
         "name": "Unity Engine",
-        "class": "devicon-unity-plain",
+        "class": "devicon-unity-original",
+        "level": "60"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain",
+        "level": "60"
+      },
+      {
+        "name": "Bitbucket",
+        "class": "devicon-bitbucket-original",
+        "level": "60"
+      },
+      {
+        "name": "Confluence",
+        "class": "devicon-confluence-original",
         "level": "60"
       },
       {
         "name": "Eclipse",
-        "class": "devicon-eclipse-plain",
+        "class": "devicon-bash-plain",
         "level": "60"
       },
       {
         "name": "Visual Studio",
-        "class": "devicon-visualstudio-plain",
+        "class": "devicon-vscode-plain",
         "level": "60"
       },
       {
@@ -94,12 +154,27 @@
       },
       {
         "name": "ClearCase",
-        "class": "devicon-clearcase-plain",
+        "class": "devicon-bash-plain",
         "level": "60"
       },
       {
         "name": "Adobe XD",
-        "class": "devicon-adobexd-plain",
+        "class": "devicon-xd-plain",
+        "level": "60"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "60"
+      },
+      {
+        "name": "gcc",
+        "class": "devicon-gcc-plain",
+        "level": "60"
+      },
+      {
+        "name": "Heroku",
+        "class": "devicon-heroku-plain",
         "level": "60"
       },
       {
@@ -136,11 +211,6 @@
         "name": "JavaScript",
         "class": "devicon-javascript-plain",
         "level": "70"
-      },
-      {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
       },
       {
         "name": "MySql",
