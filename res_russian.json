@@ -1,0 +1,312 @@
+{
+  "basic_info": {
+    "description_header": "A short introduction...",
+    "description": "Shelby Huffman currently resides in Oklahoma City and is a Software Engineer for Boeing and a Front Ensemble Educator for multiple schools and organizations in Oklahoma. Shelby has earned a Bachelor of Science in Computer Science and a Bachelor of Arts in Mathematics from the University of Oklahoma. Currently, he is pursuing a Masters in Computer Science with a specialization in Computational Perception and Robotics from the Georgia Institute of Technology. In his downtime he enjoys playing chess (ranked 1400 rapid on chess.com), preparing music material for his students, and consuming media with his wife (as one who has grown up in the age of media over-stimulation).",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "southpit.club",
+      "startDate": "2016-2022",
+      "description": "I made this website for my students at southmoore. It contains all of our music, warmups, and techniques. It is also an easy place for me to archive our past performances and allow parents to easily find the percussion implements I need them to purchase.",
+      "images": [
+        "images/portfolio/southpit/cover.png",
+        "images/portfolio/southpit/archive.png",
+        "images/portfolio/southpit/gff.png",
+        "images/portfolio/southpit/info.png",
+        "images/portfolio/southpit/technique.png"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
+    },
+    {
+      "title": "Music Career",
+      "startDate": "2016-2019",
+      "description": "A collection of photos of me with students and groups I had the honor to perform with.",
+      "images": [
+        "images/portfolio/music/cavs.jpg",
+        "images/portfolio/music/art.png",
+        "images/portfolio/music/cavs2.jpg",
+        "images/portfolio/music/cross2018.jpg",
+        "images/portfolio/music/crossmen2017.jpg",
+        "images/portfolio/music/crossmen2018.jpg",
+        "images/portfolio/music/djembe.jpg",
+        "images/portfolio/music/mandarins.jpg",
+        "images/portfolio/music/monarch.jpg",
+        "images/portfolio/music/mountain.jpg",
+        "images/portfolio/music/oudl.jpg",
+        "images/portfolio/music/rip2014.jpg",
+        "images/portfolio/music/rip2015.jpg",
+        "images/portfolio/music/southpit2016.jpg",
+        "images/portfolio/music/southpit2021.jpg",
+        "images/portfolio/music/students.png",
+        "images/portfolio/music/tenors.jpg",
+        "images/portfolio/music/xmen2018.jpg"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
+    },
+    {
+      "title": "Hackathon Projects",
+      "startDate": "2017-2021",
+      "description": "A collection of all the hackathon projects I have done. I would make these seperate and give huge bio's on them except for they've never been deployed... Nonetheless I am proud of the work done and skills learned.",
+      "images": [
+        "images/portfolio/hackathons/cers.png",
+        "images/portfolio/hackathons/clevercitizen.png",
+        "images/portfolio/hackathons/hla_site.png",
+        "images/portfolio/hackathons/encryption.jpg",
+        "images/portfolio/hackathons/next-steps.png"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Marriage",
+      "startDate": "2020",
+      "description": "I met my wife during my first season with the Crossmen DBC. I remember getting off the bus, and before I could even get my luggage set up somewhere I noticed her stand out amongst a group of folk unloading a box truck. She stood there tall, organizing everyone. I had happened to wear a snapback of a group I was previously in, which she recognized. She came and talked to me and from there I spent the entire summer looking for her attention. Later on, we got married during the pandemic after a very long distance relationship, and decided to always be by each others side. Thank you to my wife for everything.",
+      "images": [
+        "images/portfolio/marriage/cartoon.png",
+        "images/portfolio/marriage/pikes-place.png",
+        "images/portfolio/marriage/crossmen.png",
+        "images/portfolio/marriage/birthday.png"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Hacklahoma",
+      "startDate": "2020",
+      "description": "Hacklahoma was a major turning point in my programming career. I learned to go outside my degree and explore new avenues of technology that were previously unknown to me. Eventually I was given the oppurtunity to join OU's hacklahoma team and planned all of the logistics with the team for the 2020 season. In 2021, the team trusted me and my friend Bibi Dang to lead the entire group as executive directors as we headed into the uncertain age of Covid and had to reinvent everything in a virtual enviornment.",
+      "images": [
+        "images/portfolio/hacklahoma/team.jpg",
+        "images/portfolio/hacklahoma/hack.png",
+        "images/portfolio/hacklahoma/group.jpg"
+      ],
+      "url": "https://hacklahoma.org/",
+      "technologies": []
+    },
+    {
+      "title": "Front Ensemble Book",
+      "startDate": "2022",
+      "description": "I've never been much of an author, but I figured it was the most mid 20's/early 30's thing I could do. This book is a work in progress, and covers everything I know about front ensembles. There are many different varieties of front ensembles out there and I'd like to cover each one in depth and compile all of the progress made in this very niche field.",
+      "images": ["images/portfolio/front-book/book-cover.png"],
+      "url": "",
+      "technologies": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "Resistance Indoor Percussion",
+      "title": "",
+      "years": "2014 - 2016",
+      "mainTech": [""],
+      "technologies": ["Resist Pit", "Vibe/Marimba Player", "Open-Class WGI"]
+    },
+    {
+      "company": "Choctaw High School",
+      "title": "",
+      "years": "2016",
+      "mainTech": ["Graduated", "Valedictorian"],
+      "technologies": [
+        "National Honor Society",
+        "Oklahoma Honor Society",
+        "Yearbook Team"
+      ]
+    },
+    {
+      "company": "Southmoore High School",
+      "title": "Front Ensemble Coordinator",
+      "years": "08.2016 - present",
+      "mainTech": ["Current Job", "Percussion", "Freelance"],
+      "technologies": [""]
+    },
+    {
+      "company": "Mandarins Drum & Bugle Corps",
+      "title": "",
+      "years": "2016",
+      "mainTech": [""],
+      "technologies": [
+        "Vibraphone Player",
+        "Dragon Pit",
+        "Sacramento, CA",
+        "World-Class DCI"
+      ]
+    },
+    {
+      "company": "Gateway Percussion",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": ["Vibraphone Player", "St Louis, MO", "World-Class WGI"]
+    },
+    {
+      "company": "University of Oklahoma Drumline",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": ["Snare Drummer"]
+    },
+    {
+      "company": "Crossmen Drum & Bugle Corps",
+      "title": "",
+      "years": "2017 - 2018",
+      "mainTech": [""],
+      "technologies": [
+        "Marimba Player",
+        "Bones Pit",
+        "San Antonio, TX",
+        "World-Class DCI"
+      ]
+    },
+    {
+      "company": "Monarch Independent",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Split-Center Marimba Player",
+        "Houston, TX",
+        "World-Class WGI"
+      ]
+    },
+    {
+      "company": "The Cavaliers Drum & Bugle Corps",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Xylophone Player",
+        "Cavs Pit",
+        "Rosemont, IL",
+        "World-Class DCI"
+      ]
+    },
+    {
+      "company": "Oseberg",
+      "title": "Software Engineering Intern",
+      "years": "08.2019 - 11.2019",
+      "mainTech": ["React", "TypeScript"],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "MacOS",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "AWS",
+        "JWT"
+      ]
+    },
+    {
+      "company": "Hacklahoma",
+      "title": "Operation Officer",
+      "years": "2020",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Power Costs Inc",
+      "title": "Software Development Intern",
+      "years": "01.2020 - 05.2020",
+      "mainTech": ["Java", "React", "TypeScript"],
+      "technologies": [
+        "Java",
+        "XML",
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "Eclipse",
+        "Windows 10",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "Adobe XD",
+        "Figma"
+      ]
+    },
+    {
+      "company": "Boeing",
+      "title": "Software Engineer",
+      "years": "06.2020 - present",
+      "mainTech": ["Current Job"],
+      "technologies": [
+        "Java",
+        "C++",
+        "C",
+        "ClearCase",
+        "Agile",
+        "Git",
+        "Eclipse",
+        "Linux",
+        "Windows 10",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "XML",
+        "BASH"
+      ]
+    },
+    {
+      "company": "Haruka Huffman",
+      "title": "Married",
+      "years": "Anniversary: 07.19.2020",
+      "mainTech": ["Happliy"],
+      "technologies": [""]
+    },
+    {
+      "company": "Hacklahoma",
+      "title": "Executive Director",
+      "years": "2021",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "University of Oklahoma",
+      "title": "Bachelor of Science in Computer Science",
+      "years": "2021",
+      "mainTech": ["Graduated"],
+      "technologies": [""]
+    },
+    {
+      "company": "University of Oklahoma",
+      "title": "Bachelor of Arts in Mathematics",
+      "years": "2021",
+      "mainTech": ["Graduated"],
+      "technologies": [""]
+    },
+    {
+      "company": "Georgia Institute of Technology",
+      "title": "Master of Science in Computer Science",
+      "specialization": "Computational Perception and Robotics",
+      "years": "2021 - 2024 (in progress)",
+      "mainTech": ["In-Progress"],
+      "technologies": [""]
+    },
+    {
+      "company": "Huffy Music Company",
+      "title": "Founder / Percussion Instructor",
+      "years": "2021 - present",
+      "mainTech": ["Current Job", "Percussion", "Freelance"],
+      "technologies": [""]
+    },
+    {
+      "company": "Resistance Indoor Percussion",
+      "title": "Front Ensemble Tech",
+      "years": "2021 - present",
+      "mainTech": ["Current Job", "Percussion", "Open-Class WGI", "Freelance"],
+      "technologies": [""]
+    }
+  ]
+}
