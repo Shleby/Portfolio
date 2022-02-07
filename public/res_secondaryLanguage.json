@@ -1,116 +1,325 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Una breve introducción...",
+    "description": "Shelby Huffman actualmente reside en la ciudad de Oklahoma y es ingeniera de software para Boeing y educadora de conjunto frontal para varias escuelas y organizaciones en Oklahoma. Shelby obtuvo una Licenciatura en Ciencias de la Computación y una Licenciatura en Artes en Matemáticas de la Universidad de Oklahoma. Actualmente, está cursando una Maestría en Ciencias de la Computación con especialización en Percepción Computacional y Robótica del Instituto de Tecnología de Georgia. En su tiempo de inactividad, disfruta jugar al ajedrez (clasificado 1400 rápido en chess.com), preparar material musical para sus alumnos y consumir medios con su esposa (como alguien que ha crecido en la era de la sobreestimulación de los medios).",
+    "section_name": {
+      "about": "Acerca de mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
+    }
+  },
+  "projects": [
+    {
+      "title": "southpit.club",
+      "startDate": "2016-2022",
+      "description": "Hice este sitio web para mis estudiantes en southmoore. Contiene toda nuestra música, calentamientos y técnicas. También es un lugar fácil para mí para archivar nuestras actuaciones pasadas y permitir que los padres encuentren fácilmente los instrumentos de percusión que necesito que compren.",
+      "images": [
+        "images/portfolio/southpit/cover.png",
+        "images/portfolio/southpit/archive.png",
+        "images/portfolio/southpit/gff.png",
+        "images/portfolio/southpit/info.png",
+        "images/portfolio/southpit/technique.png"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Carrera musical",
+      "startDate": "2016-2019",
+      "description": "Una colección de fotos mías con estudiantes y grupos con los que tuve el honor de tocar.",
+      "images": [
+        "images/portfolio/music/cavs.jpg",
+        "images/portfolio/music/art.png",
+        "images/portfolio/music/cavs2.jpg",
+        "images/portfolio/music/cross2018.jpg",
+        "images/portfolio/music/crossmen2017.jpg",
+        "images/portfolio/music/crossmen2018.jpg",
+        "images/portfolio/music/djembe.jpg",
+        "images/portfolio/music/mandarins.jpg",
+        "images/portfolio/music/monarch.jpg",
+        "images/portfolio/music/mountain.jpg",
+        "images/portfolio/music/oudl.jpg",
+        "images/portfolio/music/rip2014.jpg",
+        "images/portfolio/music/rip2015.jpg",
+        "images/portfolio/music/southpit2016.jpg",
+        "images/portfolio/music/southpit2021.jpg",
+        "images/portfolio/music/students.png",
+        "images/portfolio/music/tenors.jpg",
+        "images/portfolio/music/xmen2018.jpg"
+      ],
+      "url": "https://southpit.club",
+      "technologies": []
+    },
+    {
+      "title": "Proyectos Hackathon",
+      "startDate": "2017-2021",
+      "description": "Una colección de todos los proyectos de hackathon que he hecho. Los haría por separado y daría grandes biografías sobre ellos, excepto que nunca se han implementado... No obstante, estoy orgulloso del trabajo realizado y las habilidades aprendidas.",
+      "images": [
+        "images/portfolio/hackathons/cers.png",
+        "images/portfolio/hackathons/clevercitizen.png",
+        "images/portfolio/hackathons/hla_site.png",
+        "images/portfolio/hackathons/encryption.jpg",
+        "images/portfolio/hackathons/next-steps.png"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Matrimonio",
+      "startDate": "2020",
+      "description": "Conocí a mi esposa durante mi primera temporada con Crossmen DBC. Recuerdo que me bajé del autobús y, antes de que pudiera colocar mi equipaje en algún lugar, noté que ella se destacaba entre un grupo de personas que descargaban un camión. Se paró allí erguida, organizando a todos. Sucedió que llevaba una gorra de un grupo en el que estaba anteriormente, que ella reconoció. Ella vino y me habló y desde allí me pasé todo el verano buscando su atención. Más tarde, nos casamos durante la pandemia después de una relación a muy larga distancia y decidimos estar siempre al lado del otro. Gracias a mi esposa por todo.",
+      "images": [
+        "images/portfolio/marriage/cartoon.png",
+        "images/portfolio/marriage/pikes-place.png",
+        "images/portfolio/marriage/crossmen.png",
+        "images/portfolio/marriage/birthday.png"
+      ],
+      "url": "",
+      "technologies": []
+    },
+    {
+      "title": "Hacklahoma",
+      "startDate": "2020",
+      "description": "Hacklahoma fue un importante punto de inflexión en mi carrera como programador. Aprendí a ir más allá de mi carrera y explorar nuevas vías de tecnología que antes eran desconocidas para mí. Eventualmente, tuve la oportunidad de unirme al equipo hacklahoma de OU y planeé toda la logística con el equipo para la temporada 2020. En 2021, el equipo confió en mí y en mi amiga Bibi Dang para dirigir a todo el grupo como directores ejecutivos mientras nos dirigíamos a la era incierta de Covid y teníamos que reinventar todo en un entorno virtual.",
+      "images": [
+        "images/portfolio/hacklahoma/team.jpg",
+        "images/portfolio/hacklahoma/hack.png",
+        "images/portfolio/hacklahoma/group.jpg"
+      ],
+      "url": "https://hacklahoma.org/",
+      "technologies": []
+    },
+    {
+      "title": "Libro de Front Ensemble",
+      "startDate": "2022",
+      "description": "Nunca he sido un gran autor, pero pensé que era lo más entre los 20 y los 30 que podía hacer. Este libro es un trabajo en progreso y cubre todo lo que sé sobre front ensembles. Hay muchas variedades diferentes de front ensembles por ahí y me gustaría cubrir cada uno en profundidad y compilar todo el progreso realizado en este nicho de campo.",
+      "images": ["images/portfolio/front-book/book-cover.png"],
+      "url": "",
+      "technologies": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "Resistance Percusión Interior",
+      "title": "",
+      "years": "2014 - 2016",
+      "mainTech": [""],
+      "technologies": [
+        "Resist Pit",
+        "Jugadora de Vibráfono/Marimba",
+        "Clase Abierta WGI"
+      ]
+    },
+    {
+      "company": "Choctaw Escuela Secundaria",
+      "title": "",
+      "years": "2016",
+      "mainTech": ["Graduado", "Valedictorian"],
+      "technologies": [
+        "Sociedad Nacional de Honor",
+        "Sociedad de Honor de Oklahoma",
+        "Equipo del Anuario"
+      ]
+    },
+    {
+      "company": "Southmoore Escuela Secundaria",
+      "title": "Front Ensemble Coordinador",
+      "years": "08.2016 - present",
+      "mainTech": ["Trabajo Actual", "Percusión", "Lanza Libre"],
+      "technologies": [""]
+    },
+    {
+      "company": "Mandarins Drum & Bugle Corps",
+      "title": "",
+      "years": "2016",
+      "mainTech": [""],
+      "technologies": [
+        "Jugadora de Vibráfono",
+        "Dragón Pit",
+        "Sacramento, CA",
+        "Clase Mundial DCI"
+      ]
+    },
+    {
+      "company": "Gateway Percusión",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": [
+        "Jugadora de Vibráfono",
+        "St Louis, MO",
+        "Clase Mundial WGI"
+      ]
+    },
+    {
+      "company": "Drumline de la Universidad de Oklahoma",
+      "title": "",
+      "years": "2017",
+      "mainTech": [""],
+      "technologies": ["Tambor de caja"]
+    },
+    {
+      "company": "Crossmen Drum & Bugle Corps",
+      "title": "",
+      "years": "2017 - 2018",
+      "mainTech": [""],
+      "technologies": [
+        "Jugador de marimba",
+        "Huesos Pit",
+        "San Antonio, TX",
+        "Clase Mundial DCI"
+      ]
+    },
+    {
+      "company": "Monarch Independiente",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Centro dividido Jugador de marimba",
+        "Houston, TX",
+        "Clase Mundial WGI"
+      ]
+    },
+    {
+      "company": "The Cavaliers Drum & Bugle Corps",
+      "title": "",
+      "years": "2019",
+      "mainTech": [""],
+      "technologies": [
+        "Jugador de xilófono",
+        "Cavs Pit",
+        "Rosemont, IL",
+        "Clase Mundial DCI"
+      ]
+    },
+    {
+      "company": "Oseberg",
+      "title": "Pasante de Ingeniería de Software",
+      "years": "08.2019 - 11.2019",
+      "mainTech": ["React", "TypeScript"],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "MacOS",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "AWS",
+        "JWT"
+      ]
+    },
+    {
+      "company": "Hacklahoma",
+      "title": "Oficial de Operación",
+      "years": "2020",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Power Costs Inc",
+      "title": "Pasante de Desarrollo de Software",
+      "years": "01.2020 - 05.2020",
+      "mainTech": ["Java", "React", "TypeScript"],
+      "technologies": [
+        "Java",
+        "XML",
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Git",
+        "Agile",
+        "Visual Studio",
+        "Eclipse",
+        "Windows 10",
+        "Bitbucket",
+        "Jira",
+        "Confluence",
+        "Adobe XD",
+        "Figma"
+      ]
+    },
+    {
+      "company": "Boeing",
+      "title": "Ingeniero de software",
+      "years": "06.2020 - present",
+      "mainTech": ["Trabajo Actual"],
+      "technologies": [
+        "Java",
+        "C++",
+        "C",
+        "ClearCase",
+        "Agile",
+        "Git",
+        "Eclipse",
+        "Linux",
+        "Windows 10",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "XML",
+        "BASH"
+      ]
+    },
+    {
+      "company": "Haruka Huffman",
+      "title": "Casado",
+      "years": "Aniversario: 07.19.2020",
+      "mainTech": ["Alegremente"],
+      "technologies": [""]
+    },
+    {
+      "company": "Hacklahoma",
+      "title": "Director Ejecutivo",
+      "years": "2021",
+      "mainTech": [],
+      "technologies": []
+    },
+    {
+      "company": "Universidad de Oklahoma",
+      "title": "Licenciatura en Ciencias en Ciencias de la Computación",
+      "years": "2021",
+      "mainTech": ["Graduado"],
+      "technologies": [""]
+    },
+    {
+      "company": "Universidad de Oklahoma",
+      "title": "Licenciatura en Artes en Matemáticas",
+      "years": "2021",
+      "mainTech": ["Graduado"],
+      "technologies": [""]
+    },
+    {
+      "company": "Instituto de Tecnología de Georgia",
+      "title": "Maestría en Ciencias en Ciencias de la Computación",
+      "specialization": "Percepción Computacional y Robótica",
+      "years": "2021 - 2024 (en curso)",
+      "mainTech": ["En Curso"],
+      "technologies": [""]
+    },
+    {
+      "company": "Huffy Music Company",
+      "title": "Fundador / Instructor de percusión",
+      "years": "2021 - presente",
+      "mainTech": ["Trabajo Actual", "Percusión", "Lanza Libre"],
+      "technologies": [""]
+    },
+    {
+      "company": "Resistance Percusión Interior",
+      "title": "Front Ensemble Técnico",
+      "years": "2021 - presente",
+      "mainTech": [
+        "Trabajo Actual",
+        "Percusión",
+        "Clase Abierta WGI",
+        "Lanza Libre"
+      ],
+      "technologies": [""]
+    }
+  ]
+}
