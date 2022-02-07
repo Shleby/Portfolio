@@ -78,6 +78,11 @@
         "level": "60"
       },
       {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "60"
+      },
+      {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
         "level": "60"
